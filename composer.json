@@ -1,0 +1,17 @@
+{
+    "name": "andrekeher/wpdp-ajax",
+    "description": "Creates AJAX endpoints in Wordpress.",
+    "homepage": "https://github.com/andrekeher/wpdp-ajax",
+	"keywords": [
+        "wordpress",
+		"ajax"
+    ],
+	"type": "plugin",
+    "license": "MIT",
+    "require": {},
+	"autoload": {
+		"psr-4": {
+			"AndreKeher\\WPDP\\" : "src/"
+		}
+	}
+}
